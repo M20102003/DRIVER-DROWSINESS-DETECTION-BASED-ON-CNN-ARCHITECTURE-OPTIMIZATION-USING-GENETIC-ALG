@@ -1,0 +1,43 @@
+mounika_project
+│
+├── data/                         # Folder for datasets
+│   ├── drowsiness_dataset/   # Custom drowsiness dataset
+│   │       └── closeeye/
+│   │       │      ├── s0037_10243_1_1_1_0_0_01.png
+│   │       │             .
+│   │       │             . #and so on
+│   │       └── openeye/
+│   │               ├── s0037_06009_1_1_0_0_0_01.png
+│   │                      .
+│   │                      . #and so on
+│   │
+│   └── processed_data/           # Processed images (resized, grayscale, etc.)
+│
+├── models/                       # Folder for trained models
+│   ├── cnn_model.h5              # Trained CNN model
+│   └── genetic_algorithm/        # Genetic algorithm results
+│
+├── src/                          # Source code
+│   ├── data_preprocessing.py     # Script for preprocessing data
+│   ├── genetic_algorithm.py      # Genetic algorithm for CNN optimization
+│   ├── train_model.py            # Script to train the CNN
+│   ├── real_time_detection.py    # Real-time drowsiness detection
+│   └── utils.py                  # Utility functions (e.g., face detection)
+│
+├── results/                      # Folder for evaluation results
+│   ├── accuracy_plots/           # Accuracy plots
+│   └── confusion_matrix/         # Confusion matrix for evaluation
+│
+└── README.md                     # Project documentation
+
+
+
+so give me full production ready code of each file ensure it must run perfectly, also in each file try to download libs in script if libs doesn't found in pc .... 
+make sure it runs perfectly ... 
+use base directory dynamicly for making the project system independent...
+should show scores of accuracy f1 recall etc ...
+give me complete full code of each file in src make sure it full fills all other folders files correct based on above project structure ....
+i have 40000 open eyes and close eyes images in greyscal color in drowsiness_dataset you can understand above project structure...
+real_time_detection should be very good it recognize correctly please ....
+use advance techniques..
+give me full complete code of each files in src

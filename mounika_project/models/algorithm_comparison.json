@@ -1,0 +1,165 @@
+{
+  "Genetic Algorithm": {
+    "params": {
+      "num_layers": 3,
+      "filters": [
+        32,
+        128,
+        128
+      ],
+      "kernel_size": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "dense_units": 256,
+      "dropout_rate": 0.3
+    },
+    "metrics": {
+      "accuracy": 0.9747862878853294,
+      "precision": 0.989826346255043,
+      "recall": 0.9601837672281777,
+      "f1": 0.9747797547072033
+    },
+    "time": 4446.008841753006
+  },
+  "Random Search": {
+    "params": {
+      "num_layers": 2,
+      "filters": [
+        64,
+        64
+      ],
+      "kernel_size": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "dense_units": 128,
+      "dropout_rate": 0.3
+    },
+    "metrics": {
+      "accuracy": 0.9681374665400224,
+      "precision": 0.9693251533742331,
+      "recall": 0.9678407350689127,
+      "f1": 0.9685823754789272
+    },
+    "time": 62.83405613899231
+  },
+  "Grid Search": {
+    "params": {
+      "num_layers": 1,
+      "filters": [
+        32
+      ],
+      "kernel_size": [
+        [
+          3,
+          3
+        ]
+      ],
+      "dense_units": 128,
+      "dropout_rate": 0.3
+    },
+    "metrics": {
+      "accuracy": 0.9557896554701667,
+      "precision": 0.975199291408326,
+      "recall": 0.9367023991832568,
+      "f1": 0.9555632702655789
+    },
+    "time": 40.63633608818054
+  },
+  "Bayesian Optimization": {
+    "params": {
+      "num_layers": 2,
+      "filters": [
+        64,
+        128
+      ],
+      "kernel_size": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "dense_units": 128,
+      "dropout_rate": 0.3
+    },
+    "metrics": {
+      "accuracy": 0.9759088161644072,
+      "precision": 0.9784615384615385,
+      "recall": 0.9739663093415007,
+      "f1": 0.9762087490406753
+    },
+    "time": 205.1619951725006
+  },
+  "Optuna": {
+    "params": {
+      "num_layers": 1,
+      "filters": [
+        64
+      ],
+      "kernel_size": [
+        [
+          3,
+          3
+        ]
+      ],
+      "dense_units": 256,
+      "dropout_rate": 0.3892349779312684
+    },
+    "metrics": {
+      "accuracy": 0.9586391503324411,
+      "precision": 0.9702090592334495,
+      "recall": 0.9475923090011911,
+      "f1": 0.9587673237496772
+    },
+    "time": 168.16239714622498
+  },
+  "Hyperopt": {
+    "params": {
+      "num_layers": 2,
+      "filters": [
+        32,
+        64
+      ],
+      "kernel_size": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "dense_units": 128,
+      "dropout_rate": 0.3
+    },
+    "metrics": {
+      "accuracy": 0.9734047146187721,
+      "precision": 0.9780257510729614,
+      "recall": 0.9693721286370597,
+      "f1": 0.973679712869595
+    },
+    "time": 43.61962103843689
+  }
+}

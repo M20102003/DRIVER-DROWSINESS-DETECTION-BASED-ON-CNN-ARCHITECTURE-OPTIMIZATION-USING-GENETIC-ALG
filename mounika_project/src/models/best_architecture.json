@@ -1,0 +1,1 @@
+{"num_layers": 3, "filters": [32, 128, 128], "kernel_size": [[3, 3], [3, 3], [5, 5]], "dense_units": 256, "dropout_rate": 0.3}
